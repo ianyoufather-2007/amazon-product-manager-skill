@@ -2,6 +2,8 @@
 
 A Codex skill for Amazon marketplace product decisions: market screening, product selection, launch planning, profit repair, growth review, inventory risk, and stop-loss calls.
 
+中文说明: [docs/README.zh-CN.md](docs/README.zh-CN.md)
+
 This project is designed for small Amazon sellers and lean product teams that need product-manager discipline without large-company overhead. It helps an AI agent convert incomplete marketplace evidence into explicit decisions, metrics, next actions, and risks.
 
 ## What It Does
