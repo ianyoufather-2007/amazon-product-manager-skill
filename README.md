@@ -17,6 +17,11 @@ This project is designed for small Amazon sellers and lean product teams that ne
 ## Repository Structure
 
 ```text
+agents/
+  product-manager-workflow-agent/
+    AGENT.md
+    agent.yaml
+    SKILL_INDEX.md
 skills/
   amazon-product-manager/
     SKILL.md
@@ -28,6 +33,10 @@ skills/
 examples/
 docs/
 ```
+
+## Agent Entry
+
+Use `agents/product-manager-workflow-agent/AGENT.md` when you want an agent-level workflow wrapper around the core skill. It routes requests across market screening, product selection, competitor response, launch planning, profit rescue, growth review, inventory risk, and stop-loss decisions.
 
 ## Installation
 
