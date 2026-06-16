@@ -4,7 +4,29 @@ A Codex skill for Amazon marketplace product decisions: market screening, produc
 
 中文说明: [docs/README.zh-CN.md](docs/README.zh-CN.md)
 
+Related agent wrapper: [01-product-manager-workflow-agent](https://github.com/ianyoufather-2007/01-product-manager-workflow-agent)
+
 This project is designed for small Amazon sellers and lean product teams that need product-manager discipline without large-company overhead. It helps an AI agent convert incomplete marketplace evidence into explicit decisions, metrics, next actions, and risks.
+
+## 中文快速开始
+
+这是一个给 Codex / AI Agent 用的 Amazon 产品经理决策 skill。它不是爬虫，也不是“自动出爆品”的工具，而是帮助 AI 按产品经理流程做市场筛选、产品机会判断、Launch 计划、利润修复、库存风险和 Go / No-Go 决策。
+
+安装后可以直接这样问：
+
+```text
+使用 $amazon-product-manager 帮我判断 Amazon US 的 coffee capsule holder 市场是否值得进入。
+
+我的约束：
+- 小品牌
+- 首批预算有限
+- 可做竹木、陶瓷或轻金属材质
+- 目标售价 $15-$35
+
+请输出 Enter Market / Watch Market / Avoid Market 决策、最适合的小切口、还缺什么证据、主要风险和未来 7 天验证计划。
+```
+
+完整中文说明见：[docs/README.zh-CN.md](docs/README.zh-CN.md)
 
 ## What It Does
 
@@ -57,7 +79,7 @@ Restart Codex after installing the skill.
 Use $amazon-product-manager to evaluate whether I should enter the coffee capsule holder market on Amazon US. I have a small brand, limited launch budget, and can source metal or bamboo products. Give me an Enter/Watch/Avoid decision, evidence needed, first wedge, risks, and next actions.
 ```
 
-More examples are in `examples/`.
+More examples are in `examples/`, including an anonymized market-screening output: [examples/anonymized-market-screening-output.md](examples/anonymized-market-screening-output.md).
 
 ## Data And Privacy
 
