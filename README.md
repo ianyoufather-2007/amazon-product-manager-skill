@@ -4,7 +4,12 @@ A Codex skill for Amazon marketplace product decisions: market screening, produc
 
 中文说明: [docs/README.zh-CN.md](docs/README.zh-CN.md)
 
-Related agent wrapper: [01-product-manager-workflow-agent](https://github.com/ianyoufather-2007/01-product-manager-workflow-agent)
+Related projects:
+
+- Integrated agent for end-to-end routing: [amazon-pm-integrated-agent](https://github.com/ianyoufather-2007/amazon-pm-integrated-agent)
+- Lightweight agent wrapper: [01-product-manager-workflow-agent](https://github.com/ianyoufather-2007/01-product-manager-workflow-agent)
+
+Use this repository when you want the core Codex skill. Use `amazon-pm-integrated-agent` when you want a cleaner agent layer that routes loose product ideas into PM triage or QYPM-style stage gates.
 
 This project is designed for small Amazon sellers and lean product teams that need product-manager discipline without large-company overhead. It helps an AI agent convert incomplete marketplace evidence into explicit decisions, metrics, next actions, and risks.
 
