@@ -9,7 +9,7 @@ Related projects:
 - Integrated agent for end-to-end routing: [amazon-pm-integrated-agent](https://github.com/ianyoufather-2007/amazon-pm-integrated-agent)
 - Lightweight agent wrapper: [01-product-manager-workflow-agent](https://github.com/ianyoufather-2007/01-product-manager-workflow-agent)
 
-Use this repository when you want the core Codex skill. Use `amazon-pm-integrated-agent` when you want a cleaner agent layer that routes loose product ideas into PM triage or QYPM-style stage gates.
+Use this repository when you want the core Codex skill. Use `amazon-pm-integrated-agent` when you want a cleaner agent layer that routes loose product ideas into PM triage or a structured stage-gate workflow.
 
 This project is designed for small Amazon sellers and lean product teams that need product-manager discipline without large-company overhead. It helps an AI agent convert incomplete marketplace evidence into explicit decisions, metrics, next actions, and risks.
 
@@ -84,7 +84,10 @@ Restart Codex after installing the skill.
 Use $amazon-product-manager to evaluate whether I should enter the coffee capsule holder market on Amazon US. I have a small brand, limited launch budget, and can source metal or bamboo products. Give me an Enter/Watch/Avoid decision, evidence needed, first wedge, risks, and next actions.
 ```
 
-More examples are in `examples/`, including an anonymized market-screening output: [examples/anonymized-market-screening-output.md](examples/anonymized-market-screening-output.md).
+More examples are in `examples/`, including:
+
+- [examples/anonymized-market-screening-output.md](examples/anonymized-market-screening-output.md)
+- [examples/anonymized-stop-loss-output.md](examples/anonymized-stop-loss-output.md)
 
 ## Data And Privacy
 

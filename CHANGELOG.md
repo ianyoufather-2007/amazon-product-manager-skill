@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.2 - 2026-06-18
+
+- Added an anonymized stop-loss output example for weak-margin, high-ad-cost, and inventory-pressure scenarios.
+- Replaced a public README reference to internal workflow wording with generic stage-gate wording.
+
 ## 0.1.1 - 2026-06-18
 
 - Clarified the relationship between the core skill, the lightweight workflow wrapper, and the integrated agent repository.
