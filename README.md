@@ -1,5 +1,9 @@
 # Amazon Product Manager Skill
 
+[![Release](https://img.shields.io/github/v/release/ianyoufather-2007/amazon-product-manager-skill?display_name=tag)](https://github.com/ianyoufather-2007/amazon-product-manager-skill/releases)
+[![License](https://img.shields.io/github/license/ianyoufather-2007/amazon-product-manager-skill)](LICENSE)
+[![Issues](https://img.shields.io/github/issues/ianyoufather-2007/amazon-product-manager-skill)](https://github.com/ianyoufather-2007/amazon-product-manager-skill/issues)
+
 A Codex skill for Amazon marketplace product decisions: market screening, product selection, launch planning, profit repair, growth review, inventory risk, and stop-loss calls.
 
 中文说明: [docs/README.zh-CN.md](docs/README.zh-CN.md)
