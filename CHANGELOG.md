@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.4 - 2026-06-19
+
+- Added GitHub issue templates for documentation improvements and workflow requests.
+- Added a pull request template with skill-impact and privacy-review checklists.
+
 ## 0.1.3 - 2026-06-19
 
 - Added a public stage-gate workflow reference for moving from loose market ideas to Go / No-Go / stop-loss decisions.
