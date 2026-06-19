@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.7 - 2026-06-19
+
+- Fixed mojibake in the README Chinese quick-start section.
+
 ## 0.1.6 - 2026-06-19
 
 - Added README badges for release, license, and open issues.

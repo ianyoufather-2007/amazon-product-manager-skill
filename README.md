@@ -19,7 +19,7 @@ This project is designed for small Amazon sellers and lean product teams that ne
 
 ## 中文快速开始
 
-这是一个给 Codex / AI Agent 用的 Amazon 产品经理决策 skill。它不是爬虫，也不是“自动出爆品”的工具，而是帮助 AI 按产品经理流程做市场筛选、产品机会判断、Launch 计划、利润修复、库存风险和 Go / No-Go 决策。
+这是一个给 Codex / AI Agent 使用的 Amazon 产品经理决策 skill。它不是爬虫，也不是“自动出爆品”的工具，而是帮助 AI 按产品经理流程做市场筛选、产品机会判断、Launch 计划、利润修复、库存风险和 Go / No-Go 决策。
 
 安装后可以直接这样问：
 
