@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.3 - 2026-06-19
+
+- Added a public stage-gate workflow reference for moving from loose market ideas to Go / No-Go / stop-loss decisions.
+- Linked the stage-gate workflow from the skill instructions and README.
+
 ## 0.1.2 - 2026-06-18
 
 - Added an anonymized stop-loss output example for weak-margin, high-ad-cost, and inventory-pressure scenarios.

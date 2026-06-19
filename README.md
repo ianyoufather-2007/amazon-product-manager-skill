@@ -52,6 +52,7 @@ skills/
       amazon-decision-framework.md
       amazon-pm-templates.md
       market-screening-framework.md
+      stage-gate-workflow.md
 examples/
 docs/
 ```
@@ -88,6 +89,8 @@ More examples are in `examples/`, including:
 
 - [examples/anonymized-market-screening-output.md](examples/anonymized-market-screening-output.md)
 - [examples/anonymized-stop-loss-output.md](examples/anonymized-stop-loss-output.md)
+
+For a repeatable market-to-launch decision path, see [skills/amazon-product-manager/references/stage-gate-workflow.md](skills/amazon-product-manager/references/stage-gate-workflow.md).
 
 ## Data And Privacy
 
