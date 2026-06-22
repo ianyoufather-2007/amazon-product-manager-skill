@@ -3,6 +3,7 @@
 [![Release](https://img.shields.io/github/v/release/ianyoufather-2007/amazon-product-manager-skill?display_name=tag)](https://github.com/ianyoufather-2007/amazon-product-manager-skill/releases)
 [![License](https://img.shields.io/github/license/ianyoufather-2007/amazon-product-manager-skill)](LICENSE)
 [![Issues](https://img.shields.io/github/issues/ianyoufather-2007/amazon-product-manager-skill)](https://github.com/ianyoufather-2007/amazon-product-manager-skill/issues)
+[![Privacy Check](https://github.com/ianyoufather-2007/amazon-product-manager-skill/actions/workflows/privacy-check.yml/badge.svg)](https://github.com/ianyoufather-2007/amazon-product-manager-skill/actions/workflows/privacy-check.yml)
 
 A Codex skill for Amazon marketplace product decisions: market screening, product selection, launch planning, profit repair, growth review, inventory risk, and stop-loss calls.
 
@@ -59,6 +60,7 @@ skills/
       stage-gate-workflow.md
 examples/
 docs/
+scripts/
 ```
 
 ## Installation
@@ -101,6 +103,14 @@ For a repeatable market-to-launch decision path, see [skills/amazon-product-mana
 This skill does not require bundled private data. Bring your own marketplace evidence: keywords, ASINs, price bands, review summaries, cost assumptions, FBA estimates, PPC metrics, or inventory data.
 
 Do not commit account credentials, browser session folders, raw customer data, supplier quotes, proprietary exports, or paid-tool datasets unless you have permission to publish them.
+
+Run the public-cleanup scanner before publishing changes:
+
+```powershell
+./scripts/privacy-check.ps1
+```
+
+The GitHub Actions workflow runs the same check on pushes and pull requests. It flags local machine paths, internal project markers, token-like secrets, raw cookie headers, and session credential wording.
 
 ## License
 
