@@ -93,6 +93,8 @@ Load `references/market-screening-framework.md` when the user asks what market, 
 
 Load `references/stage-gate-workflow.md` when the user asks for an advanced stage-gate workflow, staged product validation, product pipeline, repeatable agent workflow, or a step-by-step path from loose idea to Go / No-Go / stop-loss decision.
 
+Load `references/profit-rescue-checklist.md` when the user asks how to fix weak profit, reduce ACoS, stop return drag, or decide whether to rework or liquidate an existing product.
+
 ## Optional Data Integration
 
 When the user provides structured screening output, load it before making a decision. Useful inputs include keyword clusters, ASIN tables, review summaries, price bands, COGS/FBA estimates, PPC metrics, sell-through, inventory cover, and launch constraints.
